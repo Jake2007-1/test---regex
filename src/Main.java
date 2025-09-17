@@ -28,7 +28,12 @@ public class Main {
         System.out.println ( sept.matches("[\\wé]{4}")); //true
 
         String huit = "6320759";
-        System.out.println(huit.matches("[\\d]{7}"));
+        System.out.println(huit.matches("\\d{7}"));
+
+        // \\d+
+        // \\d+
+        // -?[1-9]\\d*|0
+        
 
 
 
